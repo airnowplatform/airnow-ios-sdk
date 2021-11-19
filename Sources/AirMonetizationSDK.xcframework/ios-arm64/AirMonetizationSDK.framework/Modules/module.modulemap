@@ -1,0 +1,11 @@
+framework module AirMonetizationSDK {
+  umbrella header "AirMonetizationSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AirMonetizationSDK.Swift {
+    header "AirMonetizationSDK-Swift.h"
+    requires objc
+}

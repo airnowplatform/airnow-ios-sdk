@@ -1,0 +1,5 @@
+//ONLY FOR ARCHIVE SDK
+
+module AirMonetizationSDK_Private {
+    export *
+}
