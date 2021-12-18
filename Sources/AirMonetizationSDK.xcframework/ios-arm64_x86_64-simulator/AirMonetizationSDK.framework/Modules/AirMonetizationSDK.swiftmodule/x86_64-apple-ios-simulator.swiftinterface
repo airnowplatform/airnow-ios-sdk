@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AirMonetizationSDK
 import AVFoundation
 import AdSupport
@@ -18,6 +18,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
+import _Concurrency
 @_inheritsConvenienceInitializers @objc final public class AirMonetizationAdapterSettings : ObjectiveC.NSObject {
   @objc final public class var sdkVersion: Swift.String {
     @objc get
@@ -30,26 +31,26 @@ import WebKit
   @objc final public func setupSDK() -> Swift.Bool
   @objc deinit
 }
-@objc extension AirMonetizationAdapterSettings {
+@objc extension AirMonetizationSDK.AirMonetizationAdapterSettings {
   @objc final public class func instance(from dictionary: [Swift.AnyHashable : Any]) throws -> AirMonetizationSDK.AirMonetizationAdapterSettings
   @objc final public func toDictionary() throws -> [Swift.AnyHashable : Any]
 }
-@_inheritsConvenienceInitializers @objc public class AirMonetizationRewarded : AirMonetizationSDK.AirMotetizationAd {
-  @objc public class func rewarded(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc override public func setPlacementName(placementName: Swift.String)
-  @objc override public func setUserId(userId: Swift.String)
-  @objc override public func setSource(source: Swift.String)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMonetizationRewarded : AirMonetizationSDK.AirMotetizationAd {
+  @objc @_Concurrency.MainActor(unsafe) public class func rewarded(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) override public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setUserId(userId: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setSource(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AirMonetizationInappBanner : AirMonetizationSDK.AirMotetizationAd {
-  @objc public class func inappBanner(withBannerSize bannerSize: CoreGraphics.CGSize = .zero) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc public class func inappBanner(withBannerSize bannerSize: CoreGraphics.CGSize = .zero, placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc override public func setPlacementName(placementName: Swift.String)
-  @objc override public func setSource(source: Swift.String)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMonetizationInappBanner : AirMonetizationSDK.AirMotetizationAd {
+  @objc @_Concurrency.MainActor(unsafe) public class func inappBanner(withBannerSize bannerSize: AirMonetizationSDK.AirMonetizationBannerSize = .init(width: 320, height: 50)) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) public class func inappBanner(withBannerSize bannerSize: AirMonetizationSDK.AirMonetizationBannerSize = .init(width: 320, height: 50), placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) override public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setSource(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public enum AirMonetizationAdType : Swift.Int {
@@ -64,34 +65,34 @@ import WebKit
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class AirMonetizationInlileBanner : AirMonetizationSDK.AirMotetizationAd {
-  @objc public class func inlineBanner(bannerView: UIKit.UIView, withBannerSize bannerSize: CoreGraphics.CGSize = .zero) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc public class func inlineBanner(bannerView: UIKit.UIView, withBannerSize bannerSize: CoreGraphics.CGSize = .zero, placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc override public func setPlacementName(placementName: Swift.String)
-  @objc override public func setSource(source: Swift.String)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMonetizationInlileBanner : AirMonetizationSDK.AirMotetizationAd {
+  @objc @_Concurrency.MainActor(unsafe) public class func inlineBanner(bannerView: UIKit.UIView, withBannerSize bannerSize: AirMonetizationSDK.AirMonetizationBannerSize = .init(width: 320, height: 50)) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) public class func inlineBanner(bannerView: UIKit.UIView, withBannerSize bannerSize: AirMonetizationSDK.AirMonetizationBannerSize = .init(width: 320, height: 50), placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) override public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setSource(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AirMotetizationAd : UIKit.UIViewController {
-  @objc weak public var delegate: AirMonetizationSDK.AirMonetizationAdDelegate?
-  @objc weak public var rewardDelegate: AirMonetizationSDK.AirMonetizationRewardedAdDelegate?
-  @objc public var isCanOpen: Swift.Bool {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMotetizationAd : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: AirMonetizationSDK.AirMonetizationAdDelegate?
+  @objc @_Concurrency.MainActor(unsafe) weak public var rewardDelegate: AirMonetizationSDK.AirMonetizationRewardedAdDelegate?
+  @objc @_Concurrency.MainActor(unsafe) public var isCanOpen: Swift.Bool {
     get
   }
-  @objc public var requestAdType: AirMonetizationSDK.AirMonetizationAdType {
+  @objc @_Concurrency.MainActor(unsafe) public var requestAdType: AirMonetizationSDK.AirMonetizationAdType {
     get
   }
-  @objc public func setPlacementName(placementName: Swift.String)
-  @objc public func setUserId(userId: Swift.String)
-  @objc public func setSource(source: Swift.String)
-  @objc public func load()
-  @objc public func show()
-  @objc public func dismiss()
-  @objc public func stop()
-  @objc public func removeFromViewController()
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor(unsafe) public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) public func setUserId(userId: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) public func setSource(source: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) public func load()
+  @objc @_Concurrency.MainActor(unsafe) public func show()
+  @objc @_Concurrency.MainActor(unsafe) public func dismiss()
+  @objc @_Concurrency.MainActor(unsafe) public func stop()
+  @objc @_Concurrency.MainActor(unsafe) public func removeFromViewController()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc public protocol AirMonetizationAdDelegate {
@@ -117,6 +118,12 @@ import WebKit
   @objc func rewardedAdDidFailWithError(ad: AirMonetizationSDK.AirMotetizationAd, error: Swift.String)
   @objc func rewardedAdDidShowFailWithError(ad: AirMonetizationSDK.AirMotetizationAd, error: Swift.String)
 }
+@objc final public class AirMonetizationBannerSize : ObjectiveC.NSObject {
+  @objc final public var width: Swift.Int
+  @objc final public var height: Swift.Int
+  @objc public init(width: Swift.Int, height: Swift.Int)
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AirMonetization : ObjectiveC.NSObject {
   @objc public static let shared: AirMonetizationSDK.AirMonetization
   @objc public var sdkVersion: Swift.String {
@@ -130,22 +137,22 @@ import WebKit
   }
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AirMonetizationVAST : AirMonetizationSDK.AirMotetizationAd {
-  @objc public class func vastVideo() -> AirMonetizationSDK.AirMotetizationAd?
-  @objc public class func vastVideo(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc override public func setPlacementName(placementName: Swift.String)
-  @objc override public func setSource(source: Swift.String)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMonetizationVAST : AirMonetizationSDK.AirMotetizationAd {
+  @objc @_Concurrency.MainActor(unsafe) public class func vastVideo() -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) public class func vastVideo(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) override public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setSource(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class AirMonetizationInterstitial : AirMonetizationSDK.AirMotetizationAd {
-  @objc public class func interstitial() -> AirMonetizationSDK.AirMotetizationAd?
-  @objc public class func interstitial(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
-  @objc override public func setPlacementName(placementName: Swift.String)
-  @objc override public func setSource(source: Swift.String)
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class AirMonetizationInterstitial : AirMonetizationSDK.AirMotetizationAd {
+  @objc @_Concurrency.MainActor(unsafe) public class func interstitial() -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) public class func interstitial(placementName: Swift.String) -> AirMonetizationSDK.AirMotetizationAd?
+  @objc @_Concurrency.MainActor(unsafe) override public func setPlacementName(placementName: Swift.String)
+  @objc @_Concurrency.MainActor(unsafe) override public func setSource(source: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension AirMonetizationSDK.AirMonetizationAdType : Swift.Equatable {}

@@ -1,6 +1,6 @@
 AirMonetizationSDK
 ======
-> **iOS In-App SDK 11.4.2 Documentation**
+> **iOS In-App SDK 11.4.3 Documentation**
 
 ## Overview
 The Airnowmedia SDK is the most powerful app monetization solution in the industry, providing developers with stunning performance and weekly payouts. Airnowmedia developers consistently earn many times more revenue than with any other ad network because our advanced new ad units outperform everything else available in the industry. This document covers installation instructions, available ad units and their features, optimization and best practices. It is written for developers with the assumption they are familiar with iOS development.
@@ -105,19 +105,19 @@ You can initiate one of the following types of ads: Inline banner, in-app banner
 
 ###### In-App Banner
 ```swift
-adView = AirMonetizationInappBanner.inappBanner(withBannerSize: CGSize(width: 50, height: 300))
+adView = AirMonetizationInappBanner.inappBanner(withBannerSize: AirMonetizationBannerSize(width: 320, height: 50))
 //Placement Name for banners is optional
 adView?.setPlacementName(placementName: "YOUR_AD_PLACEMENT_NAME")
 adView?.delegate = self
 ```
 > **AirMonetizationInappBanner.inappBanner(withBannerSize:)** – Returns instantiated AirMonetizationInappBanner object ready to load.
 **setPlacementName(placementName:)** - Set placement name for your ad. For placement name see your Dashboard.
-**bannerSize** - The specific size of the banner. If you don't set your value, the device screen size will be used.
+**bannerSize** - The specific size of the banner. If you don't set your value, 320x50 size will be used.
 **delegate** - Delegate that implements AirMonetizationAdDelegate protocol.
 
 ###### Inline banner
 ```swift
-adView = AirMonetizationInlileBanner.inlineBanner(bannerView: inlineBannerView, withBannerSize: CGSize(width: 50, height: 300))
+adView = AirMonetizationInlileBanner.inlineBanner(bannerView: inlineBannerView, withBannerSize: AirMonetizationBannerSize(width: 320, height: 50))
 //Placement Name for banners is optional
 adView?.setPlacementName(placementName: "YOUR_AD_PLACEMENT_NAME")
 adView?.delegate = self
@@ -125,7 +125,7 @@ adView?.delegate = self
 > **AirMonetizationInlileBanner.inlineBanner(bannerView:, withBannerSize:)** - instantiated AirMonetizationInlileBanner object ready to load.
 **setPlacementName(placementName:)** - Set placement name for your ad. For placement name see your Dashboard.
 **bannerView** - view you want to put the banner in.
-**bannerSize** - The specific size of the banner. If you don't set your value, the device screen size will be used.
+**bannerSize** - The specific size of the banner. If you don't set your value, 320x50 size will be used.
 **delegate** - Delegate that implements AirMonetizationAdDelegate protocol.
 
 ###### Interstitial Ads
