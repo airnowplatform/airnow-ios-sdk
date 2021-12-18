@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mS/Rxr0odArLYOXJRSVVv+NFEuU=
+		V0GlETo/ZnXJ1B+hNaMkiok4vmA=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yb0d+r8FRvEWk+cAzN992HQ0bTs=
+		VQPGPTE0L/fDNAduh3Uu9DEUuww=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		yb0d+r8FRvEWk+cAzN992HQ0bTs=
+		VQPGPTE0L/fDNAduh3Uu9DEUuww=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -270,7 +270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1P6ioehVJJpd77ij74++HuzGozLDHAxyvUjuMkb5Aos=
+			i/ohcbl4YFJ0wJre0dKWNMOZZIjbkpsDUgVeABfh2pA=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
@@ -291,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1P6ioehVJJpd77ij74++HuzGozLDHAxyvUjuMkb5Aos=
+			i/ohcbl4YFJ0wJre0dKWNMOZZIjbkpsDUgVeABfh2pA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

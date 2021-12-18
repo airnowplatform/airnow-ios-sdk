@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fEO7kMNC44kHHqOA85Gb+6zrAUI=
+		ApIk2X9ULAO3nTrQGO8M6i1Liys=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rE8NYCCWe9icOskmNRsBEoRQTKU=
+		0KDHh84O7Fq3JZ5YVoObqONQf44=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		rE8NYCCWe9icOskmNRsBEoRQTKU=
+		0KDHh84O7Fq3JZ5YVoObqONQf44=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZTNu5Cd1IJ/c+KSg6mzoXVN3pvc=
+		2VVRBrUZXvycocLciLdf1IDLzRU=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		ZTNu5Cd1IJ/c+KSg6mzoXVN3pvc=
+		2VVRBrUZXvycocLciLdf1IDLzRU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -294,7 +294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRxkI0TsMIFvvTYqSQ7lz93r89HGg8n6q4tO+IwqLTE=
+			qt6AYLbAE/wT5DXYWyCGDBxktSgCUqHVAEd09P2Vdv8=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
@@ -315,7 +315,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iRxkI0TsMIFvvTYqSQ7lz93r89HGg8n6q4tO+IwqLTE=
+			qt6AYLbAE/wT5DXYWyCGDBxktSgCUqHVAEd09P2Vdv8=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -336,7 +336,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSE8EU07R10Hd6pFZnyYzafAMnDzez1Z0dIdFvvg0zA=
+			jr6+GHUuxroA3yDQHz6L9qRNn3c9ojrTMqYbK+NA8R0=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -357,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSE8EU07R10Hd6pFZnyYzafAMnDzez1Z0dIdFvvg0zA=
+			jr6+GHUuxroA3yDQHz6L9qRNn3c9ojrTMqYbK+NA8R0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
