@@ -1,6 +1,6 @@
 AirMonetizationSDK
 ======
-> **iOS In-App SDK 11.4.4 Documentation**
+> **iOS In-App SDK 11.4.5 Documentation**
 
 ## Overview
 The Airnowmedia SDK is the most powerful app monetization solution in the industry, providing developers with stunning performance and weekly payouts. Airnowmedia developers consistently earn many times more revenue than with any other ad network because our advanced new ad units outperform everything else available in the industry. This document covers installation instructions, available ad units and their features, optimization and best practices. It is written for developers with the assumption they are familiar with iOS development.
