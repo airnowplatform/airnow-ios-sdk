@@ -761,6 +761,65 @@ let isTestMode: Bool = AirMonetization.shared.isTestMode
 `return BOOL true` if test mode is enabled.
 `return BOOL false` if test mode is disabled.
 
+#### AirMonetization GDPR – Managing Consent
+AirMonetization platform supports publisher communication of a user’s consent choice to mediated networks (for supported networks).
+
+To use AirMonetization API to update a user’s consent status, use this functions:
+
+If the user provided consent, please set the following flag to true:
+```swift
+AirMonetization.shared.setConsent(consent: .accept)
+```
+
+If the user did not consent, please set the following flag to false:
+```swift
+AirMonetization.shared.setConsent(consent: .noConsent)
+```
+
+If the user rejected consent, please set the following flag to false:
+```swift
+AirMonetization.shared.setConsent(consent: .reject)
+```
+
+If you need to get current consent state, use:
+```swift
+let currentConsentState: AirMonetizationGDPRStatus = AirMonetization.shared.getConsent
+```
+
+#### AirMonetization CCPA Compliance
+AirMonetization platform (SDK Version 11.4.5+) supports publishers to restrict the sale of end users personal information under the California Consumer Privacy Act (CCPA).
+
+The notification about personal information of specific users located in California should be handled based on a “UserDontSell” setting, by setting its value to “true” or “false”.
+
+The API should be set before any advertisement will be triggered.
+
+If the user has opted out of “sale” of personal information:
+```swift
+AirMonetization.shared.setUserDontSell(userDontSell: true)
+```
+
+If “sale” of personal information is permitted:
+```swift
+AirMonetization.shared.setUserDontSell(userDontSell: false)
+```
+
+#### AirMonetization User-Level Settings for Child-Directed Apps with Age Gates
+AirMonetization platform (SDK Version 11.4.5+) enables publishers of child-directed apps to flag specific end-users as children, as may be permitted or required by applicable law (e.g. COPPA, GDPR, etc.). Publishers of child-directed apps are responsible for determining whether an app is permitted to flag at the end-user level or must treat all end-users as children. Publishers should consult with their legal counsel accordingly.
+
+The indication of whether a specific end-user is a child should be done using a “isChildDirected” flag, by setting its value to “true” or “false”.
+
+The API should be set before any advertisement will be triggered.
+
+If the end-user is a child (as defined by applicable regulations):
+```swift
+AirMonetization.shared.setChildDirected(isChildDirected: true)
+```
+
+If the end-user is not a child:
+```swift
+AirMonetization.shared.setChildDirected(isChildDirected: false)
+```
+
 #### Advertising Identifier Usage
 AirmonetizationSDK uses Advertising Identifier to server advertisements with in app, kindly select it accordingly while publishing your app to App Store.
 ![App Store IDFA](appstore-idfa.png)

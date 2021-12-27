@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AirMonetizationSDK-Swift.h</key>
 		<data>
-		w4eQSCIBbUczUgXkHRNtveDUeAY=
+		z+oxWiINdaWmFojkXCkOo6hEqpA=
 		</data>
 		<key>Headers/AirMonetizationSDK.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V0GlETo/ZnXJ1B+hNaMkiok4vmA=
+		8xdcSnDV1CJsL5rOx9j5G0SzdXQ=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3GdMJQM+mhhwLjk9QrcupZ+90UI=
+		HpDK53VfvkOWa5ocIUKc2nLo6rc=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hCHkUr84d0ehQCnCs7dXPoi7d6c=
+		ee549am8fsNeri5soY38V6NLDEc=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VQPGPTE0L/fDNAduh3Uu9DEUuww=
+		wRSeWWnf30+zT2fZiEUISz3iLno=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		3GdMJQM+mhhwLjk9QrcupZ+90UI=
+		HpDK53VfvkOWa5ocIUKc2nLo6rc=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		hCHkUr84d0ehQCnCs7dXPoi7d6c=
+		ee549am8fsNeri5soY38V6NLDEc=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		VQPGPTE0L/fDNAduh3Uu9DEUuww=
+		wRSeWWnf30+zT2fZiEUISz3iLno=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -242,7 +242,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jOgyg3+8LjWf8xmlbcOPpuJnbXNOvoHitrh7uivWHp4=
+			nYLDlv7wP/QdUpfqVfFwiU3sX66dkswjAEoFkvhYoF8=
 			</data>
 		</dict>
 		<key>Headers/AirMonetizationSDK.h</key>
@@ -256,42 +256,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zF8dEPaFvLTc/arPCBwtfg01ROPCRbNXSYrLuUrS2aE=
+			EtukOmCZ2+Y8TVcgsm6DqfOn/7HIJuFmW5VaYKMuZns=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qgLmnEvtmC/AZLqHA1SVZ4zT81YRXgfKr1iABNQIVPU=
+			bkPRASODMSoykatF6cE3PJga3t8OGxlYaOhORDHZzZY=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/ohcbl4YFJ0wJre0dKWNMOZZIjbkpsDUgVeABfh2pA=
+			V/nJdvIFDv8RL3MEqc5cTwfUgv0n2J1K2dTiWFVw53I=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zF8dEPaFvLTc/arPCBwtfg01ROPCRbNXSYrLuUrS2aE=
+			EtukOmCZ2+Y8TVcgsm6DqfOn/7HIJuFmW5VaYKMuZns=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qgLmnEvtmC/AZLqHA1SVZ4zT81YRXgfKr1iABNQIVPU=
+			bkPRASODMSoykatF6cE3PJga3t8OGxlYaOhORDHZzZY=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/ohcbl4YFJ0wJre0dKWNMOZZIjbkpsDUgVeABfh2pA=
+			V/nJdvIFDv8RL3MEqc5cTwfUgv0n2J1K2dTiWFVw53I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

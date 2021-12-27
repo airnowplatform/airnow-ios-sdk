@@ -210,6 +210,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 @class NSString;
 @class NSNumber;
+enum AirMonetizationGDPRStatus : NSInteger;
 
 /// AirMonetization is a class for AirMotetization SDK usage start.
 /// Before any calls to some king of Ads you have to
@@ -245,6 +246,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AirMonetizat
 /// Returns current test mode state
 /// @return BOOL true if test mode is enabled.
 @property (nonatomic, readonly) BOOL isTestMode;
+/// Sets consent for the SDK.
+/// Airnow platform supports publisher communication of a user’s consent choice to mediated networks (for supported networks).
+/// To use Airnow API to update a user’s consent status, use this function
+/// @param consent AirMonetizationGDPRStatus value.
+- (void)setConsentWithConsent:(enum AirMonetizationGDPRStatus)consent;
+/// Returns current consent state
+/// @return AirMonetizationGDPRStatus consent if user agreed current consent.
+@property (nonatomic, readonly) enum AirMonetizationGDPRStatus getConsent;
+/// Sets “sale” of personal information for the SDK.
+/// Airnow platform supports publishers to restrict the sale of end users personal information under
+/// the California Consumer Privacy Act (CCPA).
+/// Sets true if the user has opted out of “sale” of personal information.
+/// Sets false if “sale” of personal information is permitted.
+/// @param userDontSell Bool value true/false
+- (void)setUserDontSellWithUserDontSell:(BOOL)userDontSell;
+/// Sets Child Directed state for the SDK.
+/// Airnow platform enables publishers of child-directed apps to flag specific end-users as children, as may be permitted or required by applicable law (e.g. COPPA, GDPR, etc.).
+/// @param isChildDirected Bool value true/false
+- (void)setChildDirectedWithIsChildDirected:(BOOL)isChildDirected;
 @end
 
 @class AirMotetizationAd;
@@ -344,6 +364,12 @@ SWIFT_CLASS("_TtC18AirMonetizationSDK25AirMonetizationBannerSize")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+typedef SWIFT_ENUM(NSInteger, AirMonetizationGDPRStatus, open) {
+  AirMonetizationGDPRStatusAccept = 0,
+  AirMonetizationGDPRStatusNoConsent = 1,
+  AirMonetizationGDPRStatusReject = 2,
+};
 
 @protocol AirMonetizationRewardedAdDelegate;
 @class NSBundle;
