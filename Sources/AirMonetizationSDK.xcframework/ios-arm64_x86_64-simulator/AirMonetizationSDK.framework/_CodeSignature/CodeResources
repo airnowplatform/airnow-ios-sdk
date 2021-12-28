@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EdTIBgCx+hJviYQ/FxC7LQ6w/R4=
+		j9zzV26ocUZ6/0Wr4Ev66reRFFI=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wjQEkKTIP3OKhEQwgr2nYmXeNQA=
+		trjZgbnhyK4LMCDfuFY1GDwVu94=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MR3C5TkNl+OgR4W0Pghn9LFa/V0=
+		CH4xvqgh0zLLFur0NpkYXeL76Yk=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		wjQEkKTIP3OKhEQwgr2nYmXeNQA=
+		trjZgbnhyK4LMCDfuFY1GDwVu94=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		MR3C5TkNl+OgR4W0Pghn9LFa/V0=
+		CH4xvqgh0zLLFur0NpkYXeL76Yk=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+l9BZMtdwBCzLEL9ig7bX9FXYzA=
+		h/poUEt4MIQ7XGv+29Nq2LXEM+8=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DmkaHM6pSdqHqIODnWD/LT7Q0TU=
+		qBR1XBcUlt7+sGL/HgDUo1pflBg=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		+l9BZMtdwBCzLEL9ig7bX9FXYzA=
+		h/poUEt4MIQ7XGv+29Nq2LXEM+8=
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		DmkaHM6pSdqHqIODnWD/LT7Q0TU=
+		qBR1XBcUlt7+sGL/HgDUo1pflBg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -280,7 +280,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s/kBxJVONOGoL0GxPHwY3XS4m85IMt7GaEyTmPL6ZYE=
+			Og2twkdSk0CHajTGPp5s5yXtXD2CK5YyC13YixJ3qF8=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -294,14 +294,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZgJS0vhe+SZ6tS0G+URyfIa6lm55MTVKnaW3V20A1as=
+			h7Qr6PuY9d23WXjaa0uBywu8lB/ZVpg1dool0XGgSTY=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s/kBxJVONOGoL0GxPHwY3XS4m85IMt7GaEyTmPL6ZYE=
+			Og2twkdSk0CHajTGPp5s5yXtXD2CK5YyC13YixJ3qF8=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/arm64.swiftinterface</key>
@@ -315,14 +315,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZgJS0vhe+SZ6tS0G+URyfIa6lm55MTVKnaW3V20A1as=
+			h7Qr6PuY9d23WXjaa0uBywu8lB/ZVpg1dool0XGgSTY=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w9yd9g20nIJGQcvZnqMWmN8lRB+vFUQS4tRgUeHGZi8=
+			uxecbX6hO7uoZ63s/Ej5++UuqV1O0PrKYG4FlmL3W/o=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -336,14 +336,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKAyjh/ddqvHj1tNHg8k0bRGpuBJAVsxAUILRj3GhnY=
+			2pqkdgLp5lmO5hyylo0l/81S2sFv1bpAtq/ouZxpPkE=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w9yd9g20nIJGQcvZnqMWmN8lRB+vFUQS4tRgUeHGZi8=
+			uxecbX6hO7uoZ63s/Ej5++UuqV1O0PrKYG4FlmL3W/o=
 			</data>
 		</dict>
 		<key>Modules/AirMonetizationSDK.swiftmodule/x86_64.swiftinterface</key>
@@ -357,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKAyjh/ddqvHj1tNHg8k0bRGpuBJAVsxAUILRj3GhnY=
+			2pqkdgLp5lmO5hyylo0l/81S2sFv1bpAtq/ouZxpPkE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

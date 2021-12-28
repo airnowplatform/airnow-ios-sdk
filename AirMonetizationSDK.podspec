@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'AirMonetizationSDK'
-  spec.version      = '11.4.5'
+  spec.version      = '11.4.6'
   spec.license      = {
     :type => 'Apache',
     :file => 'LICENSE',
